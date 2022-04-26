@@ -1,0 +1,477 @@
+*,::before,::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/image/herbe.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+}
+nav{
+    position: absolute;
+    z-index: 10;
+    top: 1%;
+    left: 2%;
+}
+.terrain{
+    border: 3.5em solid rgb(95, 139, 95);
+    width: 90vw;
+    height: 100vh;
+    /* max-height:700px; */
+    position: relative;
+}
+.bordure{
+    border: 4px solid white;
+    z-index: 1;
+}
+.exterieure{
+    background-color: rgb(95, 139, 95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gazon{
+    background-color: rgb(137, 188, 137);
+    width: 7%;
+    height: 98.7%;
+    position: absolute;
+}
+.herbe1{
+    left: 4.5%;
+}
+.herbe2{
+    left: 18%;
+}
+.herbe3{
+    left: 31.5%;
+}
+.herbe4{
+    left: 45.5%;
+}
+.herbe5{
+    left: 59.5%;
+}
+.herbe6{
+    left: 73.5%;
+}
+.herbe7{
+    left: 87.5%;
+}
+.but{
+    width: 15%;
+    height: 25%;
+    position: absolute;
+}
+.but1{
+    left: -15%;
+}
+.but2{
+    right: -15%;
+}
+.surface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.surfacegrande1{
+    width: 20%;
+    height: 65%;
+    left: 0px;
+}
+.surfacegrande2{
+    width: 20%;
+    height: 65%;
+    right: 0px;
+}
+.surfacePetite1{
+    width: 35%;
+    height: 45%;
+    left: -5px;
+}
+.surfacePetite2{
+    width: 35%;
+    height: 45%;
+    right: -5px;
+}
+.point{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+}
+.point1{
+    left: 65%;
+}
+.point2{
+    right: 65%;
+}
+.cercle{
+    width: 18%;
+    height: 35%;
+    border-radius: 50%;
+}
+.pointCentre{
+    display: flex;
+    left: 49.7%;
+    top: 49.7%;
+}
+.traitCentre{
+    height: 100%;
+    border: 2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.demiCercle{
+    position: absolute;
+    width: 20%;
+}
+.demiCercle1{
+    right: -20%;
+}
+.demiCercle2{
+    left: -20%;
+    transform: rotate(180deg);
+}
+.corner{
+    position: absolute;
+    width: 3%;
+}
+.corner1{
+    left: 0;
+    top: 0;
+}
+.corner2{
+    top: 0;
+    right: 0;
+    transform: rotate(90deg);
+}
+.corner3{
+    bottom: 0;
+    left: 0;
+    transform: rotate(-90deg);
+}
+.corner4{
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+.cabine{
+    position: absolute;
+    width: 9%;
+}
+.cabine1{
+    top: -7vh;
+    left: 10%;
+}
+.cabine2{
+    bottom: -7vh;
+    right: 10%;
+    transform: rotate(180deg);
+}
+.area{
+    position: absolute;
+    border: 4px dashed white;
+    border-radius: 5px;
+    width: 14%;
+    height: 7%;
+    padding-top: 0.2%;
+}
+.area1{
+    top: -8%;
+    left: 20%;
+}
+.area2{
+    bottom: -8%;
+    right: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+.team{
+    width: 40vw;
+    height: 80wh;
+    z-index: 5;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
+.red{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background-color: rgb(255, 77, 0);
+    background-image: url(../image/maillot.png);
+}
+
+.blue{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background-color: rgb(102, 102, 255);
+    background-image: url(../image/maillot.png);
+}
+.ballon{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../image/ballon.png);
+    left: 49%;
+    -webkit-animation: 6s linear 0s infinite alternate slidein;
+    animation: 6s linear 0s infinite alternate slidein;
+    z-index: 6;
+}
+                        /* animation ballon ==> start */
+    @-webkit-keyframes slidein {
+        from {
+            margin-left: 0%;
+        }
+    
+        to {
+            margin-left: 25%;
+        }
+    }
+    
+    @keyframes slidein {
+        from {
+            margin-left: 0%;
+        }
+    
+        to {
+            margin-left: 25%;
+        }
+    }
+                         /* animation ballon ==> end */
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+    .area {
+        width: 15.7%;
+        height: 4%;
+    }
+    .area1 {
+        top: -4%;
+    }
+    .area2 {
+        bottom: -4%;
+    }
+    .cabine1 {
+        top: -4%;
+    }
+    .cabine2 {
+        bottom: -4%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .terrain {
+        border: 2em solid rgb(95, 139, 95);
+        width: 100%;
+        height: 85vh;
+        margin-top: 10%;
+    }
+    .exterieure {
+        width: 100%;
+        height: 100%;
+    }
+    .gazon {
+        width: 97%;
+        height: 7%;
+        left: 1.5%;
+    }
+    .herbe1 {
+        top: 3.5%;
+    }
+    
+    .herbe2 {
+        top: 17.5%;
+    }
+    
+    .herbe3 {
+        top: 31.5%;
+    }
+    
+    .herbe4 {
+        top: 45.5%;
+    }
+    
+    .herbe5 {
+        top: 59.5%;
+    }
+    
+    .herbe6 {
+        top: 73.5%;
+    }
+    
+    .herbe7 {
+        top: 87.5%;
+    }
+.but{
+    width: 25%;
+    height: 15%;
+    position: absolute;
+}
+.but1{
+    top: -15%;
+    left: auto;
+}
+.but2{
+    right: auto;
+    bottom: -15%;
+}
+.surfacegrande1{
+    width: 50%;
+    height: 30%;
+    top: 0px;
+    left: auto;
+}
+.surfacegrande2{
+    width: 50%;
+    height: 30%;
+    bottom: 0px;
+    right: auto;
+}
+.surfacePetite1{
+    width: 45%;
+    height: 35%;
+    top: -5px;
+    left: auto;
+}
+.surfacePetite2{
+    width: 45%;
+    height: 35%;
+    bottom: -5px;
+    right: auto;
+}
+.point{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+}
+.point1{
+    left: auto;
+    top: 65%;
+}
+.point2{
+    right: auto;
+    bottom: 65%;
+}
+.cercle{
+    width: 30%;
+    height: 18%;
+    border-radius: 50%;
+}
+.pointCentre{
+    display: flex;
+    left: 49%;
+    top: 49.3%;
+}
+.traitCentre {
+    height: auto;
+    width: 100%;
+}
+.demiCercle{
+    position: absolute;
+    width: auto;
+    height: 60%;
+}
+.demiCercle1{
+    right: auto;
+    top: 80%;
+    transform: rotate(90deg);
+
+}
+.demiCercle2{
+    left: auto;
+    bottom: 80%;
+    transform: rotate(270deg);
+}
+.corner{
+    position: absolute;
+    width: 5%;
+}
+.corner1{
+    left: 0;
+    top: 0;
+}
+.corner2{
+    top: 0;
+    right: 0;
+    transform: rotate(90deg);
+}
+.corner3{
+    bottom: 0;
+    left: 0;
+    transform: rotate(-90deg);
+}
+.corner4{
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+.cabine{
+    position: absolute;
+    width: 12%;
+}
+.cabine1{
+    top: 5%;
+    right: -10%;
+    left: auto;
+    transform: rotate(90deg);
+}
+.cabine2{
+    bottom: 7%;
+    right: auto;
+    left: -10%;
+    transform: rotate(270deg);
+}
+.area{
+    width: 8%;
+    height: 18%;
+}
+.area1{
+    top: 15%;
+    right: -7%;
+    left: auto;
+}
+.area2{
+    bottom: 15%;
+    left: -7%;
+    right: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+.team {
+    width: auto;
+    height: 80vw;
+    z-index: 5;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.red {
+    transform: scale(0.6);
+}
+
+.blue {
+    transform: scale(0.6);
+}
+
+
+}

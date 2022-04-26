@@ -1,0 +1,119 @@
+.red,
+.blue {
+    position: relative;
+}
+
+.area2 {
+    flex-direction: row;
+}
+
+.guardian1 {
+    left: -45vw;
+    top: -25vh;
+}
+
+.Rdef1 {
+    left: -35vw;
+    top: -18vh;
+}
+
+.Rdef2 {
+    left: -54vw;
+    top: -21vh;
+}
+
+.Rdef3 {
+    left: -27vw;
+    top: -13vh;
+}
+
+.Rdef4 {
+    left: -63vw;
+    top: -16vh;
+}
+
+.Rmid1 {
+    left: -31vw;
+    top: -12vh;
+}
+
+.Rmid2 {
+    left: -57vw;
+    top: -15vh;
+}
+
+.Rmid3 {
+    left: -16vw;
+    top: -13vh;
+}
+
+.Rmid4 {
+    left: -73vw;
+    top: -16vh;
+}
+
+.Ratt1 {
+    left: -40vw;
+    top: -18vh;
+}
+
+.Ratt2 {
+    left: -49vw;
+    top: -21vh;
+}
+
+
+.guardian2 {
+    left: 43vw;
+    top: 10vh;
+}
+
+.Bdef1 {
+    left: 35vw;
+    top: -4vh;
+}
+
+.Bdef2 {
+    left: 51vw;
+    top: -7vh;
+}
+
+.Bdef3 {
+    left: 25vw;
+    top: -19vh;
+}
+
+.Bdef4 {
+    left: 61vw;
+    top: -22vh;
+}
+
+.Bmid1 {
+    left: 29vw;
+    top: -32vh;
+}
+
+.Bmid2 {
+    left: 57vw;
+    top: -35vh;
+}
+
+.Bmid3 {
+    left: 15vw;
+    top: -43vh;
+}
+
+.Bmid4 {
+    left: 72vw;
+    top: -46vh;
+}
+
+.Batt1 {
+    left: 48vw;
+    top: -52vh;
+}
+
+.Batt2 {
+    left: 39vw;
+    top: -55vh;
+}
