@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-image: url("image/herbe.jpg");
+    background-image: url("../image/herbe.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,7 +208,7 @@ nav{
     height: 1.5em;
     border-radius: 50%;
     background-color: rgb(255, 77, 0);
-    background-image: url("image/maillot.png");
+    background-image: url("/image/maillot.png");
 }
 
 .blue{
@@ -224,7 +224,7 @@ nav{
     height: 2em;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
-    background-image: url("image/ballon.png");
+    background-image: url("/image/ballon.png");
     left: 49%;
     -webkit-animation: 6s linear 0s infinite alternate slidein;
     animation: 6s linear 0s infinite alternate slidein;
